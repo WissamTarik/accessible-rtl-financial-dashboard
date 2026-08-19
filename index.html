@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="ar" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="title" content="مدبّر | لوحة تحكم مالية لإدارة أموالك بذكاء" />
+  <meta name="description" content="منصة مدبّر لإدارة الأموال، متابعة الميزانية الشهرية، الفواتير، والعمليات المالية بدقة وسهولة." />
+  <meta name="keywords" content="إدارة الأموال, ميزانية, لوحة تحكم مالية, مدبر, تتبع المصاريف" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="Arabic" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/modabrIcon.svg" type="image/x-icon">
+    <title>مدبّر | إدارة أموالك بذكاء</title>
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar" aria-label="الشريط الجانبي للملاحة">
+        <div class="logo">
+          <div class="icon" aria-hidden="true">
+            <svg
+              class="svg-inline--fa fa-coins text-white text-xl md:text-base xl:text-xl"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="coins"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"
+              ></path>
+            </svg>
+          </div>
+          <div class="title">
+            <p>مدبّر</p>
+            <span>إدارة أموالك بذكاء</span>
+          </div>
+        </div>
+
+        <nav class="nav-links" aria-label="القائمة الرئيسية">
+          <ul>
+            <li class="nav-active">
+              <a href="#home" aria-current="page">
+                <span class="nav-icon" aria-hidden="true">
+                  <i class="fas fa-home"></i>
+                </span>
+                <span class="nav-text">الصفحة الرئيسية</span>
+              </a>
+            </li>
+            <li>
+              <a href="#transactions">
+                <span class="nav-icon" aria-hidden="true">
+                  <i class="fas fa-arrows-left-right"></i>
+                </span>
+                <span class="nav-text">المعاملات</span>
+              </a>
+            </li>
+            <li>
+              <a href="#budget">
+                <span class="nav-icon" aria-hidden="true">
+                  <i class="fa-solid fa-chart-pie"></i>
+                </span>
+                <span class="nav-text">الميزانية</span>
+              </a>
+            </li>
+            <li>
+              <a href="#savings">
+                <span class="nav-icon" aria-hidden="true">
+                  <i class="fa-solid fa-piggy-bank"></i>
+                </span>
+                <span class="nav-text">المدخرات</span>
+              </a>
+            </li>
+            <li>
+              <a href="#invoices">
+                <span class="nav-icon" aria-hidden="true">
+                  <i class="fa-solid fa-file-invoice-dollar"></i>
+                </span>
+                <span class="nav-text">الفواتير</span>
+              </a>
+            </li>
+          </ul>
+
+          <section
+            class="quick-action-links"
+            aria-labelledby="quick-actions-title"
+          >
+            <h2 id="quick-actions-title">إجراءات سريعة</h2>
+            <div class="quick-links">
+              <button type="button">
+                <span class="button-icon" aria-hidden="true">
+                  <i class="fas fa-paper-plane"></i>
+                </span>
+                <span>إرسال الأموال</span>
+              </button>
+              <button type="button">
+                <span class="button-icon" aria-hidden="true">
+                  <i class="fas fa-plus"></i>
+                </span>
+                <span>إضافة أموال</span>
+              </button>
+              <button type="button">
+                <span class="button-icon" aria-hidden="true">
+                  <i class="fas fa-receipt"></i>
+                </span>
+                <span>دفع فاتورة</span>
+              </button>
+              <button type="button">
+                <span class="button-icon" aria-hidden="true">
+                  <i class="fas fa-chart-line"></i>
+                </span>
+                <span>استثمار</span>
+              </button>
+            </div>
+          </section>
+        </nav>
+      </aside>
+      <main class="main">
+        <div class="container">
+          <header class="profile">
+            <div class="inner">
+              <div class="header-action">
+                <div class="user-card">
+                  <div class="profile-img">
+                    <img
+                      src="images/img16.jpg"
+                      alt="سيف أسامة"
+                      loading="lazy"
+                      width="48"
+                      height="48"
+                    />
+                  </div>
+                  <div class="info">
+                    <h1>سيف أسامة</h1>
+                    <span>حساب مميز</span>
+                  </div>
+                </div>
+                <div class="actions">
+                  <button
+                    type="button"
+                    class="notification"
+                    aria-label="الإشعارات (2 إشعار غير مقروء)"
+                  >
+                    <div class="icon" aria-hidden="true">
+                      <i class="fas fa-bell"></i>
+                    </div>
+                    <span aria-hidden="true">2</span>
+                  </button>
+                  <button type="button" class="search" aria-label="بحث">
+                    <div class="icon" aria-hidden="true">
+                      <i class="fas fa-magnifying-glass"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <div class="header-brand">
+                <span
+                  class="status-badge"
+                  role="status"
+                  aria-label="الحالة: متصل"
+                >
+                  <span class="icon" aria-hidden="true"
+                    ><i class="fas fa-circle"></i
+                  ></span>
+                  <span>متصل</span>
+                </span>
+                <div class="logo-info">
+                  <div class="logo">
+                    <div class="icon" aria-hidden="true">
+                      <svg
+                        class="svg-inline--fa fa-coins text-white text-xl md:text-base xl:text-xl"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="coins"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        data-fa-i2svg=""
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="title">
+                      <p>مدبّر</p>
+                      <span>إدارة أموالك بذكاء</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="status-badge-mobile"
+                role="status"
+                aria-label="الحالة: متصل"
+              >
+                <span class="icon" aria-hidden="true"
+                  ><i class="fas fa-circle"></i
+                ></span>
+                <span>متصل</span>
+              </span>
+            </div>
+          </header>
+          <section
+            class="current-balance card-common"
+            aria-labelledby="balance-title"
+          >
+            <p id="balance-title">الرصيد الحالي</p>
+            <p class="h3-style">
+              8,450 <span aria-label="جنيه مصري">جنيه</span>
+            </p>
+            <div class="percent" aria-label="ارتفاع بنسبة 2.5 بالمئة">
+              <span class="icon" aria-hidden="true">
+                <i class="fas fa-arrow-up"></i>
+              </span>
+              <p>+2.5%</p>
+            </div>
+          </section>
+          <section class="income card-common" aria-labelledby="income-title">
+            <p id="income-title">الدخل</p>
+            <p class="h3-style">
+              15,000 <span aria-label="جنيه مصري">جنيه</span>
+            </p>
+            <div class="percent" aria-label="ارتفاع بنسبة 8.2 بالمئة">
+              <span class="icon" aria-hidden="true">
+                <i class="fas fa-arrow-up"></i>
+              </span>
+              <p>+8.2%</p>
+            </div>
+          </section>
+          <section
+            class="expenses card-common"
+            aria-labelledby="expenses-title"
+          >
+            <p id="expenses-title">المصروفات</p>
+            <p class="h3-style">
+              10,000 <span aria-label="جنيه مصري">جنيه</span>
+            </p>
+            <div class="percent" aria-label="انخفاض بنسبة 1.2 بالمئة">
+              <span class="icon" aria-hidden="true">
+                <i class="fas fa-arrow-down"></i>
+              </span>
+              <p>-1.2%</p>
+            </div>
+          </section>
+          <section
+            class="activities main-card"
+            aria-labelledby="activities-heading"
+          >
+            <div class="inner">
+              <h2 id="activities-heading">الأنشطة الحديثة</h2>
+
+              <ol>
+                <li class="item">
+                  <div class="info">
+                    <div class="title">
+                      <span class="icon" aria-hidden="true">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <div class="title-content">
+                        <div class="title-text">
+                          <h3>إنشاء حساب توفير جديد</h3>
+                          <span>حساب</span>
+                        </div>
+                        <p>تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+                      </div>
+                    </div>
+                  </div>
+                  <time datetime="PT1H">منذ ساعة واحدة</time>
+                </li>
+
+                <li class="item visa">
+                  <div class="info">
+                    <div class="title">
+                      <span class="icon" aria-hidden="true">
+                        <i class="fas fa-credit-card"></i>
+                      </span>
+                      <div class="title-content">
+                        <div class="title-text">
+                          <h3>إضافة بطاقة جديدة</h3>
+                          <span>بطاقة</span>
+                        </div>
+                        <p>
+                          تمت إضافة بطاقة Visa الجديدة
+                          <span aria-label="تنتهي برقم 2847">****2847</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <time datetime="PT3H">منذ 3 ساعات</time>
+                </li>
+              </ol>
+
+              <button
+                type="button"
+                aria-label="عرض جميع الأنشطة، الإجمالي 23 نشاط"
+              >
+                عرض جميع الأنشطة (23)
+              </button>
+            </div>
+          </section>
+          <section class="bills main-card" aria-labelledby="bills-heading">
+            <div class="main-title">
+              <h2 id="bills-heading">الفواتير الشهرية</h2>
+              <a href="#all-bills" aria-label="عرض جميع الفواتير الشهرية">
+                <span>عرض الكل</span>
+                <span aria-hidden="true">
+                  <i class="fas fa-chevron-left"></i>
+                </span>
+              </a>
+            </div>
+
+            <div class="title">
+              <p class="h4-style">
+                1,920 <span aria-label="جنيه مصري">جنيه</span>
+              </p>
+              <p>إجمالي الفواتير الشهرية</p>
+            </div>
+
+            <ul class="items">
+              <li class="item wifi">
+                <div class="inner">
+                  <span class="icon" aria-hidden="true">
+                    <i class="fas fa-wifi"></i>
+                  </span>
+                  <h3>إنترنت</h3>
+                  <span class="price"
+                    >450 <span aria-label="جنيه مصري">جنيه</span></span
+                  >
+                  <span class="duration">يستحق خلال 3 أيام</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="inner">
+                  <span class="icon" aria-hidden="true">
+                    <i class="fas fa-bolt"></i>
+                  </span>
+                  <h3>كهرباء</h3>
+                  <span class="price"
+                    >400 <span aria-label="جنيه مصري">جنيه</span></span
+                  >
+                  <span class="duration">يستحق خلال 5 أيام</span>
+                </div>
+              </li>
+
+              <li class="item phone">
+                <div class="inner">
+                  <span class="icon" aria-hidden="true">
+                    <i class="fas fa-phone"></i>
+                  </span>
+                  <h3>هاتف</h3>
+                  <span class="price"
+                    >290 <span aria-label="جنيه مصري">جنيه</span></span
+                  >
+                  <span class="duration">يستحق خلال 10 أيام</span>
+                </div>
+              </li>
+
+              <li class="item netflix">
+                <div class="inner">
+                  <span class="icon" aria-hidden="true">
+                    <i class="fas fa-tv"></i>
+                  </span>
+                  <h3>Netflix</h3>
+                  <span class="price"
+                    >780 <span aria-label="جنيه مصري">جنيه</span></span
+                  >
+                  <span class="duration">يستحق خلال 15 يومًا</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section
+            class="table main-card"
+            aria-labelledby="transactions-heading"
+          >
+            <div class="main-title">
+              <h2 id="transactions-heading">المعاملات الأخيرة</h2>
+              <a
+                href="#all-transactions"
+                aria-label="عرض جميع المعاملات الأخيرة"
+              >
+                <span>عرض الكل</span>
+                <span aria-hidden="true">
+                  <i class="fas fa-chevron-left"></i>
+                </span>
+              </a>
+            </div>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">المعاملة</th>
+                    <th scope="col">الفئة</th>
+                    <th scope="col">التاريخ</th>
+                    <th scope="col">الحالة</th>
+                    <th scope="col">المبلغ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="photo-row">
+                    <td class="user-data">
+                      <div class="image">
+                        <img src="images/one.jpg" alt="صورة محمود النجار" />
+                      </div>
+                      <div class="info">
+                        <h3>محمود النجار</h3>
+                        <p>تحويل أموال</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-arrow-down"></i
+                        ></span>
+                        <span>دخل</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-14">١٤ أكتوبر ٢٠٢٥</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price increment">
+                      <span aria-label="موجب 350 جنيه مصري">+350 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-utensils"></i>
+                      </div>
+                      <div class="info">
+                        <h3>مطعم Meat Moot</h3>
+                        <p>دفع مطعم</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-utensils"></i
+                        ></span>
+                        <span>مطعم</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-14">14 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 2200 جنيه مصري">-2200 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-cart-shopping"></i>
+                      </div>
+                      <div class="info">
+                        <h3>مشتريات Amazon</h3>
+                        <p>تسوق إلكتروني</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-shopping-cart"></i
+                        ></span>
+                        <span>تسوق</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-15">15 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 1250 جنيه مصري">-1250 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="photo-row">
+                    <td class="user-data">
+                      <div class="image">
+                        <img src="images/two.png" alt="صورة عمر المهدي" />
+                      </div>
+                      <div class="info">
+                        <h3>عمر المهدي</h3>
+                        <p>دفع فاتورة مقسمة</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-users"></i
+                        ></span>
+                        <span>فاتورة مقسمة</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-13">13 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 1400 جنيه مصري">-1400 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="photo-row">
+                    <td class="user-data">
+                      <div class="image">
+                        <img src="images/img16.jpg" alt="صورة محمد عوض" />
+                      </div>
+                      <div class="info">
+                        <h3>محمد عوض</h3>
+                        <p>دفع عمل حر</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-briefcase"></i
+                        ></span>
+                        <span>عمل</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-12">12 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price increment">
+                      <span aria-label="موجب 2500 جنيه مصري">+2500 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-gas-pump"></i>
+                      </div>
+                      <div class="info">
+                        <h3>محطة وقود Shell</h3>
+                        <p>شراء وقود</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-car"></i
+                        ></span>
+                        <span>مواصلات</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-15">15 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status">
+                      <span>معلق</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 700 جنيه مصري">-700 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-gas-pump"></i>
+                      </div>
+                      <div class="info">
+                        <h3>محطة وقود Shell</h3>
+                        <p>شراء وقود</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-car"></i
+                        ></span>
+                        <span>مواصلات</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-15">15 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status">
+                      <span>معلق</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 700 جنيه مصري">-700 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-gas-pump"></i>
+                      </div>
+                      <div class="info">
+                        <h3>محطة وقود Shell</h3>
+                        <p>شراء وقود</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-car"></i
+                        ></span>
+                        <span>مواصلات</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-15">15 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status">
+                      <span>معلق</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 700 جنيه مصري">-700 جنيه</span>
+                    </td>
+                  </tr>
+
+                  <tr class="icon-row">
+                    <td class="icon-data">
+                      <div class="icon" aria-hidden="true">
+                        <i class="fas fa-gas-pump"></i>
+                      </div>
+                      <div class="info">
+                        <h3>محطة وقود Shell</h3>
+                        <p>شراء وقود</p>
+                      </div>
+                    </td>
+                    <td class="type">
+                      <div>
+                        <span aria-hidden="true"
+                          ><i class="fas fa-car"></i
+                        ></span>
+                        <span>مواصلات</span>
+                      </div>
+                    </td>
+                    <td class="date">
+                      <time datetime="2025-10-15">15 أكتوبر، 2025</time>
+                    </td>
+                    <td class="status completed">
+                      <span>مكتمل</span>
+                    </td>
+                    <td class="price decrement">
+                      <span aria-label="سالب 700 جنيه مصري">-700 جنيه</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section
+            class="payment-methods main-card"
+            aria-labelledby="payment-methods-heading"
+          >
+            <div class="main-title">
+              <h2 id="payment-methods-heading">وسائل الدفع</h2>
+              <a href="#manage-payment-methods" aria-label="إدارة وسائل الدفع">
+                <span>إدارة</span>
+                <span aria-hidden="true">
+                  <i class="fas fa-chevron-left"></i>
+                </span>
+              </a>
+            </div>
+
+            <ul class="cards">
+              <li
+                class="flip-card"
+                tabindex="0"
+                role="region"
+                aria-label="بطاقة فيزا الائتمانية الأساسية"
+              >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div class="header">
+                      <div class="draw-icon" aria-hidden="true">
+                        <div class="inner-box"></div>
+                      </div>
+                      <div class="icon" aria-hidden="true">
+                        <i class="fab fa-cc-visa"></i>
+                      </div>
+                    </div>
+                    <p aria-label="رقم البطاقة ينتهي بـ 4532">
+                      •••• •••• •••• 4532
+                    </p>
+                    <div class="info">
+                      <div class="left-content">
+                        <span>حامل البطاقة</span>
+                        <span class="user-name">سيف أسامة</span>
+                      </div>
+                      <div class="right-content">
+                        <span>تنتهي</span>
+                        <time datetime="2026-12" class="expire">12/26</time>
+                      </div>
+                    </div>
+                    <span class="badge">أساسية</span>
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="strip" aria-hidden="true"></div>
+                    <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                    <div class="signature">
+                      <div class="rect" aria-hidden="true"></div>
+                      <span>4532</span>
+                    </div>
+                    <div class="footer">
+                      <abbr title="Card Verification Value">CVV</abbr>
+                      <span class="cvv-number">456</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="flip-card"
+                tabindex="0"
+                role="region"
+                aria-label="بطاقة ماستركارد الائتمانية"
+              >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div class="header">
+                      <div class="draw-icon" aria-hidden="true">
+                        <div class="inner-box"></div>
+                      </div>
+                      <div class="icon" aria-hidden="true">
+                        <i class="fab fa-cc-mastercard"></i>
+                      </div>
+                    </div>
+                    <p aria-label="رقم البطاقة ينتهي بـ 8901">
+                      •••• •••• •••• 8901
+                    </p>
+                    <div class="info">
+                      <div class="left-content">
+                        <span>حامل البطاقة</span>
+                        <span class="user-name">سيف أسامة</span>
+                      </div>
+                      <div class="right-content">
+                        <span>تنتهي</span>
+                        <!-- Added machine-readable <time> element -->
+                        <time datetime="2027-08" class="expire">08/27</time>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="strip" aria-hidden="true"></div>
+                    <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                    <div class="signature">
+                      <div class="rect" aria-hidden="true"></div>
+                      <span>4532</span>
+                    </div>
+                    <div class="footer">
+                      <abbr title="Card Verification Value">CVV</abbr>
+                      <span class="cvv-number">456</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="flip-card"
+                tabindex="0"
+                role="region"
+                aria-label="حساب بايبال"
+              >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div class="header">
+                      <div class="draw-icon" aria-hidden="true">
+                        <div class="inner-box"></div>
+                      </div>
+                      <div class="icon" aria-hidden="true">
+                        <i class="fab fa-paypal"></i>
+                      </div>
+                    </div>
+                    <p>حساب PayPal</p>
+                    <div class="info">
+                      <div class="left-content">
+                        <span>البريد الإلكتروني</span>
+                        <span class="user-name">seif@example.com</span>
+                      </div>
+                      <div class="right-content">
+                        <span>الحالة</span>
+                        <span class="status">موثق</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="strip" aria-hidden="true"></div>
+                    <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                    <div class="signature">
+                      <div class="rect" aria-hidden="true"></div>
+                      <span>PP01</span>
+                    </div>
+                    <div class="footer">
+                      <abbr title="Identifier">ID</abbr>
+                      <span class="cvv-number">PP-01</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+         <section class="income-expenses main-card" aria-labelledby="income-expenses-heading">
+  <div class="main-title">
+    <h2 id="income-expenses-heading">الدخل مقابل المصروفات</h2>
+    <a href="#income-analysis" aria-label="تحليل الدخل والمصروفات">
+      <span>تحليل</span>
+      <span aria-hidden="true">
+        <i class="fas fa-chevron-left"></i>
+      </span>
+    </a>
+  </div>
+
+  <ul class="legends" >
+    <li class="legend-item">
+      <div class="legend" aria-hidden="true"></div>
+      <span>الدخل</span>
+    </li>
+    <li class="legend-item">
+      <div class="legend" aria-hidden="true"></div>
+      <span>المصروفات</span>
+    </li>
+  </ul>
+
+  <ul class="charts" ">
+    <li class="chart-item">
+      <div class="inner">
+        <div class="chart" role="img" aria-label="رسم بياني للدخل والمصروفات للأسبوع الأول">
+          <div class="expense-chart"></div>
+          <div class="income-chart"></div>
+        </div>
+        <time datetime="P1W">الأسبوع 1</time>
+      </div>
+    </li>
+
+    <li class="chart-item">
+      <div class="inner">
+        <div class="chart" role="img" aria-label="رسم بياني للدخل والمصروفات للأسبوع الثاني">
+          <div class="expense-chart"></div>
+          <div class="income-chart"></div>
+        </div>
+        <time datetime="P1W">الأسبوع 2</time>
+      </div>
+    </li>
+
+    <li class="chart-item">
+      <div class="inner">
+        <div class="chart" role="img" aria-label="رسم بياني للدخل والمصروفات للأسبوع الثالث">
+          <div class="expense-chart"></div>
+          <div class="income-chart"></div>
+        </div>
+        <time datetime="P1W">الأسبوع 3</time>
+      </div>
+    </li>
+
+    <li class="chart-item">
+      <div class="inner">
+        <div class="chart" role="img" aria-label="رسم بياني للدخل والمصروفات للأسبوع الرابع">
+          <div class="expense-chart"></div>
+          <div class="income-chart"></div>
+        </div>
+        <time datetime="P1W">الأسبوع 4</time>
+      </div>
+    </li>
+  </ul>
+</section>
+       <section class="account-summary main-card" aria-labelledby="account-summary-heading">
+  <div class="main-title">
+    <h2 id="account-summary-heading">ملخص الحساب</h2>
+      <span> التفاصيل </span>
+      <span aria-hidden="true">
+        <i class="fas fa-chevron-left"></i>
+      </span>
+    </a>
+  </div>
+
+  <ul >
+    <li class="account-details">
+      <div class="info">
+        <div class="icon" aria-hidden="true">
+          <i class="fas fa-university"></i>
+        </div>
+        <div class="content">
+          <h3>حساب جاري</h3>
+          <p>بنك مصر <span aria-label="رقم البطاقة ينتهي بـ 4532">[•••• 4532]</span></p>
+        </div>
+      </div>
+      <span class="balance">8,450 جنية</span>
+    </li>
+
+    <li class="account-details">
+      <div class="info">
+        <div class="icon" aria-hidden="true">
+          <i class="fas fa-piggy-bank"></i>
+        </div>
+        <div class="content">
+          <h3>حساب توفير</h3>
+          <p>بنك مصر <span aria-label="رقم البطاقة ينتهي بـ 8901">[•••• 8901]</span></p>
+        </div>
+      </div>
+      <span class="balance">297,540 جنية </span>
+    </li>
+
+    <li class="account-details">
+      <div class="info">
+        <div class="icon" aria-hidden="true">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <div class="content">
+          <h3>بطاقة ائتمان</h3>
+          <p>متاح: 1,850 جنية 
+            <br>
+            من 2,500 جنية</p>
+        </div>
+      </div>
+      <span class="overdraft balance">- 6,000 جنية </span>
+    </li>
+  </ul>
+</section>
+      <section class="budget main-card" aria-labelledby="budget-heading">
+  <div class="main-title">
+    <!-- Changed <h3> to <h2> for standard section heading hierarchy -->
+    <h2 id="budget-heading">نظرة عامة على الميزانية</h2>
+    <!-- Updated placeholder link and provided a clear screen-reader label -->
+    <a href="#budget-details" aria-label="تفاصيل نظرة عامة على الميزانية">
+      <span> التفاصيل </span>
+      <!-- Hidden decorative icon from assistive technologies -->
+      <span aria-hidden="true">
+        <i class="fas fa-chevron-left"></i>
+      </span>
+    </a>
+  </div>
+
+  <div class="total">
+    <div class="info">
+      <div class="left-content">
+        <!-- Changed <h3> to <h3>/<h4> appropriate level inside total block -->
+        <h3>إجمالي الميزانية</h3>
+        <p class="h4-style" style="font-weight: bold; margin: 0;">10000 جنية</p>
+      </div>
+      <div class="right-content">
+        <span> المتبقي </span>
+        <p class="h4-style" style="font-weight: bold; margin: 0;">1750 جنية</p>
+      </div>
+    </div>
+    
+    <!-- Added accessible progressbar attributes to progress section -->
+    <div class="progress" role="progressbar" aria-valuenow="82.5" aria-valuemin="0" aria-valuemax="100" aria-label="نسبة الميزانية المستخدمة">
+      <div class="text">
+        <span class="amount"> المستخدم: 8250 جنية </span>
+        <span class="percent"> 82.5% </span>
+      </div>
+      <div class="progress-bar"></div>
+    </div>
+  </div>
+
+  <ul>
+    <li class="budget-card">
+      <div class="inner">
+        <div class="info">
+          <div class="left-content">
+            <div class="icon" aria-hidden="true">
+              <i class="fas fa-film"></i>
+            </div>
+            <div class="content">
+              <h3>ترفيه</h3>
+              <p>الميزانية: 1500 جنية</p>
+            </div>
+          </div>
+          <div class="right-content">
+            <span class="amount">750 جنية</span>
+            <span class="badge"> متبقي 50% </span>
+          </div>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="النسبة المتبقية من ميزانية الترفيه"></div>
+      </div>
+    </li>
+
+    <li class="budget-card">
+      <div class="inner">
+        <div class="info">
+          <div class="left-content">
+            <!-- Hidden decorative invoice icon from screen readers -->
+            <div class="icon" aria-hidden="true">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <div class="content">
+              <h3>فواتير</h3>
+              <p>الميزانية: 2000 جنية</p>
+            </div>
+          </div>
+          <div class="right-content">
+            <span class="amount">2000 جنية</span>
+            <span class="badge"> مستخدم 100% </span>
+          </div>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="النسبة المستخدمة من ميزانية الفواتير"></div>
+      </div>
+    </li>
+
+    <li class="budget-card">
+      <div class="inner">
+        <div class="info">
+          <div class="left-content">
+            <div class="icon" aria-hidden="true">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+              <h3>العناية الشخصية</h3>
+              <p>الميزانية: 1500 جنية</p>
+            </div>
+          </div>
+          <div class="right-content">
+            <span class="amount">1200 جنية</span>
+            <span class="badge"> متبقي 20% </span>
+          </div>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="النسبة المستخدمة من ميزانية العناية الشخصية"></div>
+      </div>
+    </li>
+
+    <li class="budget-card">
+      <div class="inner">
+        <div class="info">
+          <div class="left-content">
+            <div class="icon" aria-hidden="true">
+              <i class="fas fa-cart-shopping"></i>
+            </div>
+            <div class="content">
+              <h3>مستلزمات المنزل</h3>
+              <p>الميزانية: 5000 جنية</p>
+            </div>
+          </div>
+          <div class="right-content">
+            <span class="amount">4300 جنية</span>
+            <span class="badge"> متبقي 14% </span>
+          </div>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="النسبة المستخدمة من ميزانية مستلزمات المنزل"></div>
+      </div>
+    </li>
+  </ul>
+</section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
